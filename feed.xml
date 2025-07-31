@@ -1,17 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://lifeofhere.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lifeofhere.github.io/" rel="alternate" type="text/html" /><updated>2025-07-31T02:09:13+00:00</updated><id>https://lifeofhere.github.io/feed.xml</id><title type="html">Life OF HERE</title><subtitle>欢迎来到我的个人博客！这里记录着我的技术学习心得、生活感悟和思考分享。 希望通过文字与代码，与志同道合的朋友们交流探讨，共同成长进步。</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="https://lifeofhere.github.io/jekyll/update/2025/07/31/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-07-31T00:48:15+00:00</published><updated>2025-07-31T00:48:15+00:00</updated><id>https://lifeofhere.github.io/jekyll/update/2025/07/31/welcome-to-jekyll</id><content type="html" xml:base="https://lifeofhere.github.io/jekyll/update/2025/07/31/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://lifeofhere.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lifeofhere.github.io/" rel="alternate" type="text/html" /><updated>2025-07-31T10:15:41+08:00</updated><id>https://lifeofhere.github.io/feed.xml</id><title type="html">Life OF HERE</title><subtitle>欢迎来到我的个人博客！这里记录着我的技术学习心得、生活感悟和思考分享。 希望通过文字与代码，与志同道合的朋友们交流探讨，共同成长进步。</subtitle><author><name>Life OF HERE</name><email>lifeofhere@163.com</email></author><entry><title type="html">欢迎来到Jekyll博客！</title><link href="https://lifeofhere.github.io/tech/jekyll/welcome-to-jekyll/" rel="alternate" type="text/html" title="欢迎来到Jekyll博客！" /><published>2025-07-31T08:48:15+08:00</published><updated>2025-07-31T08:48:15+08:00</updated><id>https://lifeofhere.github.io/tech/jekyll/welcome-to-jekyll</id><content type="html" xml:base="https://lifeofhere.github.io/tech/jekyll/welcome-to-jekyll/"><![CDATA[<p>欢迎来到我的Jekyll博客！这是使用Minimal Mistakes主题搭建的个人博客。</p>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<h2 id="关于jekyll">关于Jekyll</h2>
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<p>Jekyll是一个静态网站生成器，非常适合用来搭建个人博客。你可以在<code class="language-plaintext highlighter-rouge">_posts</code>目录中找到这篇文章的源文件。编辑文章后重新构建网站就能看到变化。</p>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<h3 id="文章命名规则">文章命名规则</h3>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>Jekyll要求博客文章文件按照以下格式命名：</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p><code class="language-plaintext highlighter-rouge">年-月-日-标题.MARKUP</code></p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<p>其中<code class="language-plaintext highlighter-rouge">年</code>是四位数字，<code class="language-plaintext highlighter-rouge">月</code>和<code class="language-plaintext highlighter-rouge">日</code>都是两位数字，<code class="language-plaintext highlighter-rouge">MARKUP</code>是文件扩展名。</p>
+
+<h3 id="代码高亮">代码高亮</h3>
+
+<p>Jekyll提供了强大的代码高亮支持：</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">greet</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"你好，</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">！"</span><span class="p">)</span>
+    
+<span class="n">greet</span><span class="p">(</span><span class="s">"世界"</span><span class="p">)</span>
+<span class="c1"># 输出：你好，世界！
+</span></code></pre></div></div>
+
+<h3 id="minimal-mistakes主题特性">Minimal Mistakes主题特性</h3>
+
+<p>这个博客使用了Minimal Mistakes主题，它提供了：</p>
+
+<ul>
+  <li>响应式设计</li>
+  <li>作者信息展示</li>
+  <li>文章分类和标签</li>
+  <li>社交媒体链接</li>
+  <li>搜索功能</li>
+  <li>评论系统支持</li>
+</ul>
+
+<h2 id="开始写作">开始写作</h2>
+
+<p>现在你可以开始在这个博客上分享你的想法和经验了！创建新文章只需要在<code class="language-plaintext highlighter-rouge">_posts</code>目录中添加新的Markdown文件即可。</p>
+
+<p>祝你写作愉快！ 🎉</p>
+
+<h2 id="相关资源">相关资源</h2>
+
+<ul>
+  <li><a href="https://jekyllrb.com/docs/home">Jekyll官方文档</a></li>
+  <li><a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes主题文档</a></li>
+  <li><a href="https://docs.github.com/en/pages">GitHub Pages文档</a></li>
+</ul>]]></content><author><name>Life OF HERE</name><email>lifeofhere@163.com</email></author><category term="tech" /><category term="jekyll" /><category term="jekyll" /><category term="blog" /><category term="建站" /><summary type="html"><![CDATA[使用Jekyll和Minimal Mistakes主题搭建个人博客的入门指南。]]></summary></entry></feed>
