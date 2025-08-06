@@ -1,10 +1,11 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
+
 <html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
@@ -48,16 +49,7 @@
 
 
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "Person",
-      "name": null,
-      "url": "https://lifeofhere.github.io/"
-    
-  }
-</script>
+
 
 
 
@@ -70,19 +62,17 @@
 
 
   <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Life OF HERE Feed">
-
-
-<!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
 </script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
 
 
@@ -94,7 +84,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--single" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -102,10 +92,6 @@
     <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
   </ul>
 </nav>
-
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
 
     
 
@@ -119,15 +105,35 @@
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/">首页</a>
+              <a
+                href="/"
+                
+                
+              >首页</a>
             </li><li class="masthead__menu-item">
-              <a href="/about/">关于</a>
+              <a
+                href="/about/"
+                
+                
+              >关于</a>
             </li><li class="masthead__menu-item">
-              <a href="/categories/">文章分类</a>
+              <a
+                href="/categories/"
+                
+                
+              >文章分类</a>
             </li><li class="masthead__menu-item">
-              <a href="/tags/">标签</a>
+              <a
+                href="/tags/"
+                
+                
+              >标签</a>
             </li><li class="masthead__menu-item">
-              <a href="/year-archive/">归档</a>
+              <a
+                href="/year-archive/"
+                
+                
+              >归档</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -146,28 +152,30 @@
 
 
 
+
+
 <div id="main" role="main">
   
   <div class="sidebar sticky">
   
 
 
-<div itemscope itemtype="https://schema.org/Person">
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   
     <div class="author__avatar">
-      
-        <img src="/assets/images/avatar.jpg" alt="Life OF HERE" itemprop="image">
-      
+      <a href="https://lifeofhere.github.io/">
+        <img src="/assets/images/avatar.jpg" alt="Life OF HERE" itemprop="image" class="u-photo">
+      </a>
     </div>
   
 
   <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://lifeofhere.github.io/" itemprop="url">Life OF HERE</a>
+    </h3>
     
-      <h3 class="author__name" itemprop="name">Life OF HERE</h3>
-    
-    
-      <div class="author__bio" itemprop="description">
+      <div class="author__bio p-note" itemprop="description">
         <p>技术爱好者，终身学习者</p>
 
       </div>
@@ -179,14 +187,14 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">China</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">China</span>
         </li>
       
 
       
         
           
-            <li><a href="https://github.com/lifeofhere" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+            <li><a href="https://github.com/lifeofhere" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
           
         
       
@@ -195,7 +203,7 @@
 
       
         <li>
-          <a href="mailto:lifeofhere@163.com">
+          <a href="mailto:lifeofhere@163.com" rel="me" class="u-email">
             <meta itemprop="email" content="lifeofhere@163.com" />
             <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
           </a>
@@ -248,7 +256,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -271,8 +279,10 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">从零开始搭建GitHub博客：Jekyll + Minimal Mistakes完整指南
-</h1>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://lifeofhere.github.io/tech/blog/github-blog-setup/" itemprop="url">从零开始搭建GitHub博客：Jekyll + Minimal Mistakes完整指南
+</a>
+          </h1>
           
 
   <p class="page__meta">
@@ -636,13 +646,13 @@ bundle <span class="nb">exec </span>jekyll serve
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/#github-pages" class="page__taxonomy-item" rel="tag">github-pages</a><span class="sep">, </span>
+      <a href="/tags/#github-pages" class="page__taxonomy-item p-category" rel="tag">github-pages</a><span class="sep">, </span>
     
-      <a href="/tags/#jekyll" class="page__taxonomy-item" rel="tag">jekyll</a><span class="sep">, </span>
+      <a href="/tags/#jekyll" class="page__taxonomy-item p-category" rel="tag">jekyll</a><span class="sep">, </span>
     
-      <a href="/tags/#minimal-mistakes" class="page__taxonomy-item" rel="tag">minimal-mistakes</a><span class="sep">, </span>
+      <a href="/tags/#minimal-mistakes" class="page__taxonomy-item p-category" rel="tag">minimal-mistakes</a><span class="sep">, </span>
     
-      <a href="/tags/#%E5%BB%BA%E7%AB%99" class="page__taxonomy-item" rel="tag">建站</a>
+      <a href="/tags/#%E5%BB%BA%E7%AB%99" class="page__taxonomy-item p-category" rel="tag">建站</a>
     
     </span>
   </p>
@@ -659,9 +669,9 @@ bundle <span class="nb">exec </span>jekyll serve
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/#blog" class="page__taxonomy-item" rel="tag">blog</a><span class="sep">, </span>
+      <a href="/categories/#blog" class="page__taxonomy-item p-category" rel="tag">blog</a><span class="sep">, </span>
     
-      <a href="/categories/#tech" class="page__taxonomy-item" rel="tag">tech</a>
+      <a href="/categories/#tech" class="page__taxonomy-item p-category" rel="tag">tech</a>
     
     </span>
   </p>
@@ -669,32 +679,32 @@ bundle <span class="nb">exec </span>jekyll serve
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2025-01-02T10:00:00+08:00">January 2, 2025</time></p>
-
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-01-02T10:00:00+08:00">January 2, 2025</time></p>
 
       </footer>
 
       <section class="page__share">
-  
+  <h4 class="page__share-title">Share on</h4>
 
-  <a href="https://twitter.com/intent/tweet?text=%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2%EF%BC%9AJekyll+%2B+Minimal+Mistakes%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97%20https%3A%2F%2Flifeofhere.github.io%2Ftech%2Fblog%2Fgithub-blog-setup%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://x.com/intent/tweet?text=%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2%EF%BC%9AJekyll+%2B+Minimal+Mistakes%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97%20https%3A%2F%2Flifeofhere.github.io%2Ftech%2Fblog%2Fgithub-blog-setup%2F" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+    <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
+  </a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flifeofhere.github.io%2Ftech%2Fblog%2Fgithub-blog-setup%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flifeofhere.github.io%2Ftech%2Fblog%2Fgithub-blog-setup%2F" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+    <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
+  </a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Flifeofhere.github.io%2Ftech%2Fblog%2Fgithub-blog-setup%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://lifeofhere.github.io/tech/blog/github-blog-setup/" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
+  </a>
+
+  <a href="https://bsky.app/intent/compose?text=%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2%EF%BC%9AJekyll+%2B+Minimal+Mistakes%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97%20https%3A%2F%2Flifeofhere.github.io%2Ftech%2Fblog%2Fgithub-blog-setup%2F" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+    <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
+  </a>
 </section>
 
 
       
-  <nav class="pagination">
-    
-      <a href="#" class="pagination--pager disabled">Previous</a>
-    
-    
-      <a href="/tech/jekyll/welcome-to-jekyll/" class="pagination--pager" title="欢迎来到Jekyll博客！
-">Next</a>
-    
-  </nav>
 
     </div>
 
@@ -703,67 +713,20 @@ bundle <span class="nb">exec </span>jekyll serve
 
   
   
-    <div class="page__related">
-      <h4 class="page__related-title">You May Also Enjoy</h4>
-      <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-      <div class="archive__item-teaser">
-        <img src="/assets/images/jekyll-teaser.jpg" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/tech/jekyll/welcome-to-jekyll/" rel="permalink">欢迎来到Jekyll博客！
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
     
       
-      <span class="page__meta-date">
-        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2025-07-31T08:48:15+08:00">July 31, 2025</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">使用Jekyll和Minimal Mistakes主题搭建个人博客的入门指南。
-</p>
-  </article>
+  </div>
 </div>
 
-        
-      </div>
-    </div>
-  
   
 </div>
 
+      
     </div>
 
     
@@ -773,7 +736,9 @@ bundle <span class="nb">exec </span>jekyll serve
         <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
-        <div class="page__footer-follow">
+        
+
+<div class="page__footer-follow">
   <ul class="social-icons">
     
 
@@ -791,14 +756,14 @@ bundle <span class="nb">exec </span>jekyll serve
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2025 Life OF HERE. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="https://lifeofhere.github.io">Life OF HERE</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
   <script src="/assets/js/main.min.js"></script>
-
 
 
 
